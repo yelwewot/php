@@ -17,6 +17,7 @@
         $st = $db->prepare($sql);
         $st->execute(array($menu_name, $menu_desc));
         $db = null;
+         
     }
 
     // Retrieve 
