@@ -11,3 +11,7 @@ CREATE TABLE `ref_menu` (
   `price` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
+
+ALTER TABLE `ref_menu`
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+COMMIT;
